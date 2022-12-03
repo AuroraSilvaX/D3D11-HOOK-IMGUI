@@ -1,1 +1,3 @@
-# DirectX3D11-Hook-With-Imgui
+初学，找了好多D3D11的HOOK示例，没有能用的，最终找到了一个可以用的 [源码](https://github.com/CasualCoder91/DX11Hook)，然而这个有些臃肿，并且注入DLL后，改变窗口的大小就会黑屏。
+
+于是，修改添加了可以调节窗口大小并且不黑屏的函数，并精简、添加了注解（可能不准确）。
